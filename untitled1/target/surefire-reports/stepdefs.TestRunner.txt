@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: stepdefs.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.484 s <<< FAILURE! - in stepdefs.TestRunner
+Feature: Discover Website.Verify 20% Cash Advance  Time elapsed: 7.934 s  <<< ERROR!
+java.lang.NullPointerException
+

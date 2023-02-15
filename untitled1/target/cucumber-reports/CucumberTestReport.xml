@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.930813">
+    <testcase classname="Discover Website" name="Verify 20% Cash Advance" time="7.930813">
+        <failure message="java.lang.NullPointerException&#10;&#9;at stepdefs.UIsteps.iClickTheApplyNowSecuredCreditCard(UIsteps.java:74)&#10;&#9;at ✽.I click the apply now secured credit card(file:src/test/resources/features/discover.feature:11)&#10;"><![CDATA[Given I navigate to discover website........................................passed
+And I click on the Credit Cards Icon........................................passed
+And I click the apply now secured credit card...............................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at stepdefs.UIsteps.iClickTheApplyNowSecuredCreditCard(UIsteps.java:74)
+	at ✽.I click the apply now secured credit card(file:src/test/resources/features/discover.feature:11)
+]]></failure>
+    </testcase>
+</testsuite>

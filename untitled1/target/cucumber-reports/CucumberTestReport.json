@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-15T12:25:15.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3975607493,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIsteps.setupTest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify 20% Cash Advance",
+        "description": "",
+        "id": "discover-website;verify-20%-cash-advance",
+        "after": [
+          {
+            "result": {
+              "duration": 237294871,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UIsteps.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2052140862,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to discover website",
+            "match": {
+              "location": "UIsteps.iNavigateToDiscoverWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1506025099,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the Credit Cards Icon",
+            "match": {
+              "location": "UIsteps.iClickOnTheCreditCardsIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat stepdefs.UIsteps.iClickTheApplyNowSecuredCreditCard(UIsteps.java:74)\n\tat ✽.I click the apply now secured credit card(file:src/test/resources/features/discover.feature:11)\n",
+              "duration": 4376089,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I click the apply now secured credit card",
+            "match": {
+              "location": "UIsteps.iClickTheApplyNowSecuredCreditCard()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Discover Website",
+    "description": "  In order to validate Discover Website\n  As a user\n  I wish to verify the cash advance is greater than 20%",
+    "id": "discover-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/discover.feature",
+    "tags": []
+  }
+]
